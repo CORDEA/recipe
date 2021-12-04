@@ -6,8 +6,14 @@
   "author": "Yoshihiro Tanaka <contact@cordea.jp>",
   "license": "Apache-2.0",
   "private": true,
+  "scripts": {
+    "build": "rollup --config"
+  },
   "dependencies": {
     "million": "^1.0.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "rollup": "^2.60.2"
+  }
 }
