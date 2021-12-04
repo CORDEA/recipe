@@ -10,10 +10,14 @@
     "build": "rollup --config"
   },
   "dependencies": {
+    "@material/layout-grid": "^13.0.0",
+    "@material/textfield": "^13.0.0",
     "million": "^1.0.0"
   },
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^13.0.6",
-    "rollup": "^2.60.2"
+    "rollup": "^2.60.2",
+    "rollup-plugin-scss": "3",
+    "sass": "^1.44.0"
   }
 }
