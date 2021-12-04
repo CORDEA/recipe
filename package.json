@@ -5,5 +5,9 @@
   "repository": "git@github.com:CORDEA/recipe.git",
   "author": "Yoshihiro Tanaka <contact@cordea.jp>",
   "license": "Apache-2.0",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "million": "^1.0.0"
+  },
+  "devDependencies": {}
 }
