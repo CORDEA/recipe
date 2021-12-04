@@ -2,3 +2,12 @@
 @use "@material/line-ripple/mdc-line-ripple";
 @use "@material/notched-outline/mdc-notched-outline";
 @use "@material/textfield/mdc-text-field";
+@use "@material/layout-grid/mdc-layout-grid";
+
+.mdc-layout-grid__inner {
+  margin: 16px 0;
+}
+
+.mdc-text-field {
+  width: 100%;
+}
