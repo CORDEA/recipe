@@ -17,6 +17,7 @@ button.addEventListener('click', () => {
     const title = m('div', {class: 'app-list-item__title'}, [titleTextField.value]);
     const ingredient = m('div', {class: 'app-list-item__ingredient'}, [ingredientTextField.value]);
     const body = m('div', {class: 'app-list-item__body'}, [bodyTextField.value]);
-    const cell = createElement(m('li', {class: 'app-list-item'}, [title, ingredient, body]));
+    const divider = m('div', {class: 'app-list-item__divider'});
+    const cell = createElement(m('li', {class: 'app-list-item'}, [title, ingredient, body, divider]));
     content.appendChild(cell);
 });

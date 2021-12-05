@@ -16,19 +16,29 @@
   width: 100%;
 }
 
-.app-list-item {
+#content {
   list-style-type: none;
-  margin: 16px 0;
+  padding: 0;
 }
 
 .app-list-item__title {
   @include typography.typography(body1);
+  margin: 0 8px;
 }
 
 .app-list-item__ingredient {
+  @extend .app-list-item__title;
   @include typography.typography(headline6);
 }
 
 .app-list-item__body {
+  @extend .app-list-item__title;
   @include typography.typography(body2);
+}
+
+.app-list-item__divider {
+  height: 1px;
+  width: 100%;
+  margin: 16px 0;
+  background: rgba(0, 0, 0, 0.12);
 }
