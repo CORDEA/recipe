@@ -4,6 +4,9 @@
 @use "@material/textfield/mdc-text-field";
 @use "@material/layout-grid/mdc-layout-grid";
 @use "@material/button/styles";
+@use "@material/typography";
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500");
 
 .mdc-layout-grid__inner {
   margin: 16px 0;
@@ -11,4 +14,21 @@
 
 .mdc-text-field {
   width: 100%;
+}
+
+.app-list-item {
+  list-style-type: none;
+  margin: 16px 0;
+}
+
+.app-list-item__title {
+  @include typography.typography(body1);
+}
+
+.app-list-item__ingredient {
+  @include typography.typography(headline6);
+}
+
+.app-list-item__body {
+  @include typography.typography(body2);
 }
