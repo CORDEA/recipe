@@ -7,12 +7,14 @@
 </head>
 <body>
 <div class="mdc-layout-grid">
+    <div class="mdc-layout-grid__inner" id="content">
+    </div>
     <div class="mdc-layout-grid__inner">
         <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-5">
             <label class="mdc-text-field mdc-text-field--filled">
                 <span class="mdc-text-field__ripple"></span>
                 <span class="mdc-floating-label" id="title-label-id">Title</span>
-                <input class="mdc-text-field__input" type="text" aria-labelledby="title-label-id">
+                <input class="mdc-text-field__input" type="text" aria-labelledby="title-label-id" id="title">
                 <span class="mdc-line-ripple"></span>
             </label>
         </div>
@@ -22,7 +24,7 @@
             <label class="mdc-text-field mdc-text-field--filled">
                 <span class="mdc-text-field__ripple"></span>
                 <span class="mdc-floating-label" id="ingredient-label-id">Ingredient</span>
-                <input class="mdc-text-field__input" type="text" aria-labelledby="ingredient-label-id">
+                <input class="mdc-text-field__input" type="text" aria-labelledby="ingredient-label-id" id="ingredient">
                 <span class="mdc-line-ripple"></span>
             </label>
         </div>
@@ -34,7 +36,7 @@
                 <span class="mdc-floating-label" id="body-label-id">Body</span>
                 <span class="mdc-text-field__resizer">
                     <textarea class="mdc-text-field__input" aria-labelledby="body-label-id" rows="8"
-                              cols="40" maxlength="1000"></textarea>
+                              cols="40" maxlength="1000" id="body"></textarea>
                 </span>
             </label>
             <div class="mdc-text-field-helper-line">
