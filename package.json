@@ -10,6 +10,7 @@
     "build": "rollup --config"
   },
   "dependencies": {
+    "@material/button": "^13.0.0",
     "@material/layout-grid": "^13.0.0",
     "@material/textfield": "^13.0.0",
     "million": "^1.0.0"
